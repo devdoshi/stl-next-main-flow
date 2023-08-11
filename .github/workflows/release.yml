@@ -31,5 +31,5 @@ jobs:
           git fetch origin
           git checkout -b main origin/main
           git checkout next
-          git rebase main
-          git push --force-with-lease origin next
+          git rebase --verbose --strategy=resolve main
+          git push --verbose --force-with-lease origin next
