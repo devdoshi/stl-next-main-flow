@@ -6,6 +6,19 @@
 ### Features
 
 * minor bump ([#24](https://github.com/devdoshi/stl-next-main-flow/issues/24)) ([aa0548a](https://github.com/devdoshi/stl-next-main-flow/commit/aa0548a59d36de1914abc8c856f018fbfedb787a))
+* new change since release branch ([45b6705](https://github.com/devdoshi/stl-next-main-flow/commit/45b6705478ac352aeef95fa3f875de6844357e1c))
+
+
+### Bug Fixes
+
+* patch bump ([#23](https://github.com/devdoshi/stl-next-main-flow/issues/23)) ([e3dcc60](https://github.com/devdoshi/stl-next-main-flow/commit/e3dcc6010637df2bf456b08c660bd0652ed06ec4))
+
+## [3.4.0](https://github.com/devdoshi/stl-next-main-flow/compare/v3.3.0...v3.4.0) (2023-08-12)
+
+
+### Features
+
+* minor bump ([#24](https://github.com/devdoshi/stl-next-main-flow/issues/24)) ([aa0548a](https://github.com/devdoshi/stl-next-main-flow/commit/aa0548a59d36de1914abc8c856f018fbfedb787a))
 
 
 ### Bug Fixes
