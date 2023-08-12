@@ -30,12 +30,13 @@ jobs:
       - name: Update next to match main (keeping any changes that happened in the meantime)
         run: |
           REFERENCE_BRANCH=release-please--branches--next--components--my-package
+          git fetch origin main
           git fetch origin $REFERENCE_BRANCH
           git fetch origin next
           git checkout -b $REFERENCE_BRANCH origin/$REFERENCE_BRANCH
           LAST_SHARED_COMMIT_HASH=$(git log -1 --pretty=format:'%H')
           echo $LAST_SHARED_COMMIT_HASH
-          git checkout main
+          git checkout -b main origin/main
           git cherrypick $LAST_SHARED_COMMIT_HASH..next
           git push --verbose --force-with-lease origin main:next
         
