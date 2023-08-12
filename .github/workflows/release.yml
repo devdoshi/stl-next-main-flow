@@ -36,6 +36,8 @@ jobs:
           git checkout -b main origin/main
           LAST_SHARED_COMMIT_HASH=$(git rev-parse origin/$REFERENCE_BRANCH^)
           echo $LAST_SHARED_COMMIT_HASH
-          git cherry-pick --allow-empty --strategy=ours $LAST_SHARED_COMMIT_HASH..next && git push --verbose --force-with-lease origin main:next || git diff
+          git config user.name "devdoshi[bot]"
+          git config user.email 'devdoshi+github-actions-bot@users.noreply.github.com'  
+          git cherry-pick --allow-empty --strategy=theirs $LAST_SHARED_COMMIT_HASH..next && git push --verbose --force-with-lease origin main:next || git diff
         
         
