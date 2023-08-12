@@ -37,7 +37,7 @@ jobs:
           LAST_SHARED_COMMIT_HASH=$(git log -1 --pretty=format:'%H')
           echo $LAST_SHARED_COMMIT_HASH
           git checkout -b main origin/main
-          git cherry-pick $LAST_SHARED_COMMIT_HASH..next
+          git cherry-pick --allow-empty $LAST_SHARED_COMMIT_HASH..next
           git push --verbose --force-with-lease origin main:next
         
         
