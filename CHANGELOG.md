@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.3.0](https://github.com/devdoshi/stl-next-main-flow/compare/v3.2.0...v3.3.0) (2023-08-12)
+
+
+### Features
+
+* minor bump ([#20](https://github.com/devdoshi/stl-next-main-flow/issues/20)) ([9b2216d](https://github.com/devdoshi/stl-next-main-flow/commit/9b2216da66f9ce59377e02502ca8108311751406))
+
+
+### Bug Fixes
+
+* patch bump ([#19](https://github.com/devdoshi/stl-next-main-flow/issues/19)) ([ccfce7a](https://github.com/devdoshi/stl-next-main-flow/commit/ccfce7aa8cb3787141e6794e9d268df53e3dd281))
+
 ## [3.2.0](https://github.com/devdoshi/stl-next-main-flow/compare/v3.1.0...v3.2.0) (2023-08-12)
 
 
