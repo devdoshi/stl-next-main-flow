@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.2.0](https://github.com/devdoshi/stl-next-main-flow/compare/v3.1.0...v3.2.0) (2023-08-12)
+
+
+### Features
+
+* allow cherry-pick to fail ([2cd9822](https://github.com/devdoshi/stl-next-main-flow/commit/2cd9822bde854ff7a136a8a9a805d59fd172f1dd))
+* allow empty cherry pick ([918cbd2](https://github.com/devdoshi/stl-next-main-flow/commit/918cbd2cd07a9534f69f765c0786b2a702a6bd89))
+* changes on next that happened while something got merged to main ([b2965ba](https://github.com/devdoshi/stl-next-main-flow/commit/b2965ba5945db0bff7ceb38e7b942dae9e2fb411))
+* cherry-pick instead of rebasing ([a63b364](https://github.com/devdoshi/stl-next-main-flow/commit/a63b36414e0be4ff98fab0f03ceb265e26050ed3))
+* cherry-pick instead of rebasing ([5c70e26](https://github.com/devdoshi/stl-next-main-flow/commit/5c70e26b2f81e0be16162189de1e54baeccc7e0d))
+* update workflow ([b2e00cf](https://github.com/devdoshi/stl-next-main-flow/commit/b2e00cf30a69e23824226f0f9bc56e9d141175ec))
+* update workflow ([ff1f70c](https://github.com/devdoshi/stl-next-main-flow/commit/ff1f70c6de6a282d1f64c76dbd57c6b39420edfb))
+
 ## [3.1.0](https://github.com/devdoshi/stl-next-main-flow/compare/v3.0.0...v3.1.0) (2023-08-11)
 
 
