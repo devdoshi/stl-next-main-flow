@@ -29,6 +29,7 @@ jobs:
       # This will fail if other commits are pushed to next after next is fetched. You can wrap it with retrying as needed 
       - name: Update next to match main (keeping any changes that happened in the meantime)
         run: |
+          git --version
           REFERENCE_BRANCH=release-please--branches--next--components--my-package
           git fetch origin main
           git fetch origin $REFERENCE_BRANCH
@@ -38,6 +39,6 @@ jobs:
           echo $LAST_SHARED_COMMIT_HASH
           git config user.name "devdoshi[bot]"
           git config user.email 'devdoshi+github-actions-bot@users.noreply.github.com'  
-          git cherry-pick --allow-empty --strategy=theirs $LAST_SHARED_COMMIT_HASH..next && git push --verbose --force-with-lease origin main:next || git diff
+          git cherry-pick --allow-empty --strategy=ours $LAST_SHARED_COMMIT_HASH..next && git push --verbose --force-with-lease origin main:next || git diff
         
         
