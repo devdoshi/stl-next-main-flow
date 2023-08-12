@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://github.com/devdoshi/stl-next-main-flow/compare/v3.4.0...v4.0.0) (2023-08-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* breaking change ([#25](https://github.com/devdoshi/stl-next-main-flow/issues/25))
+
+### Features
+
+* breaking change ([#25](https://github.com/devdoshi/stl-next-main-flow/issues/25)) ([d115a6f](https://github.com/devdoshi/stl-next-main-flow/commit/d115a6f25868393d4ab2ac73198939fce1b639d1))
+
 ## [3.4.0](https://github.com/devdoshi/stl-next-main-flow/compare/v3.3.0...v3.4.0) (2023-08-12)
 
 
